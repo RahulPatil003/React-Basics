@@ -7,7 +7,7 @@ const Animals = () => {
         <ul>
             
         { animals.map((animal) => ( 
-            <li>{animal}</li>
+            <li key={animal}>{animal}</li>
         ))}
         </ul>
     </div>
